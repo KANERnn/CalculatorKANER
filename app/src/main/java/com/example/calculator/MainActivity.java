@@ -152,63 +152,6 @@ public class MainActivity extends AppCompatActivity {
                     case "//":
                         result = oldNumber / 100;
                         break;
-                    /*case "+":
-                        newNumber = Double.parseDouble(textView.getText().toString());
-                        if (equal) {
-                            result = oldNumber + newNumber;
-                            textView.setText(result.toString());
-                            equal = false;
-                        } else if (isOperationClick == false) {
-                            result = oldNumber + newNumber;
-                            textView.setText(result.toString());
-                        } else {
-                            textView.getText();
-                        }
-                        isOperationClick = true;
-                        break;
-                    case "-":
-                        newNumber = Double.parseDouble(textView.getText().toString());
-                        if (equal) {
-                            result = oldNumber - newNumber;
-                            textView.setText(result.toString());
-                            equal = false;
-                        } else if (isOperationClick == false) {
-                            result = oldNumber - newNumber;
-                            textView.setText(result.toString());
-                        } else {
-                            textView.getText();
-                        }
-                        isOperationClick = true;
-                        break;
-                    case "*":
-                        newNumber = Double.parseDouble(textView.getText().toString());
-                        if (equal) {
-                            result = oldNumber * newNumber;
-                            textView.setText(result.toString());
-                            equal = false;
-                        } else if (isOperationClick == false) {
-                            result = oldNumber * newNumber;
-                            textView.setText(result.toString());
-                        } else {
-                            textView.getText();
-                        }
-                        isOperationClick = true;
-                        break;
-                    case "/":
-                        newNumber = Double.parseDouble(textView.getText().toString());
-                        if (equal) {
-                            result = oldNumber / newNumber;
-                            textView.setText(result.toString());
-                            equal = false;
-                        } else if (isOperationClick == false) {
-                            result = oldNumber / newNumber;
-                            textView.setText(result.toString());
-                        } else {
-                            textView.getText();
-                        }
-
-                        isOperationClick = true;
-                        break;*/
                 }
                 textView.setText(new DecimalFormat("##.#######").format(result));
                 isOperationClick = true;
